@@ -1,29 +1,23 @@
 # Testes automatizados com Cypress - Básico
 
-👋 Seja bem-vindo(a)!
+Projeto do curso de testes automatizados com Cypress no nível básico
 
-É muito bom tê-lo(a) aqui. Tenho certeza que você vai adorar este curso. ❤️
+## Pré-requisitos
 
-## O que você vai aprender
+É necessário ter git, Node.js e npm instalados para clonar e executar este projeto.
 
-Durante o curso de testes automatizados com Cypress (básico), você vai aprender:
+> Usei versões 2.39.2, v20.5.0 do git, Node.js e npm, respectivamente. Eu sugiro que você use as mesmas versões LTS ou posteriores.
 
-- Como configurar um projeto Cypress do zero
-- Como visitar páginas locais e remotas
-- Como lidar com os elementos mais comuns encontrados em aplicações web
-- Como testar _upload_ de arquivos
-- Como realizar as mais diversas verificações de resultados esperados
-- Como criar comandos customizados
-- Como lidar com links que abrem em outra aba do navegador
-- Como rodar testes simulando as dimensões de um dispositivo móvel
-- Como resolver os mesmos problemas de diferentes formas, conhecendo a [API do Cypress](https://docs.cypress.io/api/table-of-contents)
-- Como executar os testes em um _pipeline_ de integração contínua sempre que mudanças ocorrerem no código da aplicação (ou dos testes)
-- Como criar uma documentação mínima para seu projeto de testes automatizados
+## Instalação 
 
-## Vamos começar?
+>Após clonar e acessar o repositório, execute npm install(ou npm i para a versão curta) para instalar as dependências dev.
 
-Vá para a seção [estrutura do curso](./lessons/_course-structure_.md).
+## Testes
 
-___
+Run `npm test`(ou `npm t` para a versão curta) para executar os testes em modo headless.
 
-Este é mais um curso da [**Escola Talking About Testing**](https://udemy.com/user/walmyr).
+Ou, run `npm run cy:open`, para executar os testes em modo interativo.
+
+## Apoie esse projeto
+
+Se você quiser apoiar este projeto, deixe um ⭐.
